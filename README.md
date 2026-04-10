@@ -8,15 +8,15 @@ A powerful CLI tool to analyze files built with Node.js
 - fs module
 
 ## 📦 Installation
-
+\```
 npm install
-
+\```
 
 ## 🚀 Usage
 \```
-node index.js count-lines <file>    # Count lines
-node index.js count-words <file>    # Count words  
-node index.js count-chars <file>    # Count characters
+node index.js count <file>    # Count lines
+node index.js words <file>    # Count words  
+node index.js chars <file>    # Count characters
 node index.js read <file>     # Read file content
 node index.js create <file>   # Create new file
 node index.js delete <file>   # Delete a file
@@ -30,4 +30,3 @@ node index.js count a.txt
 node index.js words a.txt
 → Number of words: 50
 \```
-
